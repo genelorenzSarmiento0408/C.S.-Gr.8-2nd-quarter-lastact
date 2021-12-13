@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import $ from "jquery";
 export default function Home() {
   const [offset, setOffset] = useState(0);
 
@@ -11,15 +12,10 @@ export default function Home() {
         setOffset(window.pageYOffset);
       });
   }, []);
-
-  console.log(offset);
   if (typeof window !== "undefined") {
-    let hi = document.querySelector(".hi");
-    if (hi) {
-      hi.addEventListener("mouseover", () => {
-        document.querySelector(".wave").style.visibility = "visible";
-      });
-    }
+    $(".hi").on("mouseover", function () {
+      $(".wave").css({ visibility: "visible" });
+    });
   }
   return (
     <div>
@@ -39,9 +35,9 @@ export default function Home() {
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card-ind shadow-lg">
+          <a href="/aboutme" className="card-ind shadow-lg">
             <h3>About Me &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Learn more about me and facts about me </p>
           </a>
 
           <a href="/hobbies" className="card-ind shadow-lg">
@@ -60,15 +56,13 @@ export default function Home() {
           </a>
         </div>
       </main>
-
       <footer>
         <p>
-          Made with ❤️ by
+          &#160; &#160; Made with ❤️ by
           <a href="https://github.com/genelorenzSarmiento0408/C.S.-Gr.8-2nd-quarter-lastact">
             Gene Lorenz Sarmiento
           </a>
-          with
-          <a href="https://nextjs.org"> Next.js</a>
+          <a href="https://nextjs.org"> with Next.js</a>
           <a
             href="https://vercel.com/"
             style={{ justifyContent: "center", display: "flex" }}
