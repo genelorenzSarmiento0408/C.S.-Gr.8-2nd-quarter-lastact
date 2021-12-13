@@ -63,7 +63,11 @@ export default function Home() {
 
       <footer>
         <p>
-          Made with ❤️ by Gene Lorenz Sarmiento with
+          Made with ❤️ by
+          <a href="https://github.com/genelorenzSarmiento0408/C.S.-Gr.8-2nd-quarter-lastact">
+            Gene Lorenz Sarmiento
+          </a>
+          with
           <a href="https://nextjs.org"> Next.js</a>
           <a
             href="https://vercel.com/"
