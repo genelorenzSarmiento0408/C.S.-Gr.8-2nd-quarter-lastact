@@ -10,21 +10,21 @@ export default function aboutme() {
               className="card-text"
               style={{ fontSize: "1.5rem", marginLeft: "1.50rem" }}
             >
-              Hi, I'm <strong> Gene Lorenz Sarmiento</strong>, I'm a Student,
+              Hi, I'm <strong> Gene Lorenz Sarmiento</strong> I'm a Student,
               Programmer, and an Entrepreneur
             </div>
             <div
               className="card-text"
               style={{ fontSize: "1.3rem", marginLeft: "1.50rem" }}
             >
-              I'm a grade 8 student, and currenly learning on Full-stack web
+              I'm a grade 8 student and currently learning Full-stack web
               development and game development
             </div>
             <div
               className="card-text"
               style={{ fontSize: "1.3rem", marginLeft: "1.50rem" }}
             >
-              I'm capable of understanding new information at a rapid pace.
+              I'm capable of understanding new information at such a rapid pace.
             </div>
             <div className="row no-gutters">
               <Row>
@@ -39,7 +39,7 @@ export default function aboutme() {
                       <strong>Zodiac Sign:</strong> Leo
                     </li>
                     <li>
-                      <strong>Bestfriend/s:</strong>
+                      <strong>Friend/s:</strong>
                       <a href="/friends"> List of Friends</a>
                     </li>
                     <li>

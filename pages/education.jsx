@@ -24,6 +24,7 @@ export default function education() {
                         <a href="/highschool"> High School</a>
                       </li>
                     </ul>
+                    Click any of the Grade for more info
                   </Col>
                   <Col>
                     Grade 4 Mr. and Ms. OLLA
@@ -42,10 +43,6 @@ export default function education() {
                       fluid
                       thumbnail
                     />
-                  </Col>
-                  <Col>
-                    Grade 6 Graduation Picture
-                    <Image src="/Gradpic.png" alt="gradpic" fluid thumbnail />
                   </Col>
                 </Row>
                 More pictures at: <a href="/images">Images</a>

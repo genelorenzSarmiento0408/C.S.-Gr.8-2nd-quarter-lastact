@@ -46,13 +46,6 @@ export default function images() {
                   <Col>
                     <Image src="GLSocmedHome.png" fluid thumbnail />
                   </Col>
-                  <Col>
-                    <Image src="GLSocmedMessageSent.png" fluid thumbnail />
-                  </Col>
-                  <Col>
-                    <Image src="GLSocmedMessageReceived.png" fluid thumbnail />
-                  </Col>
-                  <Col></Col>
                 </Row>
               </div>
             </div>
