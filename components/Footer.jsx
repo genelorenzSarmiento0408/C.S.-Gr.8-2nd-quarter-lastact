@@ -8,9 +8,11 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { Image } from "react-bootstrap";
+import Link from "next/link";
 
 export default function Footer() {
   let lastAct;
+  let Undesclosed;
   if (typeof window !== "undefined") {
     if (window.location.pathname == "/") {
       lastAct = (
@@ -19,11 +21,20 @@ export default function Footer() {
           <a>2nd Quarter last Activity in Computer 8</a>
         </>
       );
+    } else if (window.location.pathname == "/grade46") {
+      Undesclosed = (
+        <>
+          <a>
+            <sup>[1]</sup> Undisclosed if grammatical or not
+          </a>
+        </>
+      );
     }
   }
   return (
     <footer>
       <h6>
+        {Undesclosed}
         <a> Made with ❤️ by</a>
         <a href="https://github.com/genelorenzSarmiento0408/C.S.-Gr.8-2nd-quarter-lastact">
           Gene Lorenz Sarmiento
@@ -38,8 +49,10 @@ export default function Footer() {
         </a>
         <br />
         {lastAct}
+        <Link href="https://github.com/genelorenzSarmiento0408/C.S.-Gr.8-2nd-quarter-lastact/issues">
+          <a>Drop an Issue here: Github Issues</a>
+        </Link>
         <br />
-
         <p
           style={{
             display: "flex",
