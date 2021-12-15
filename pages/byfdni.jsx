@@ -15,7 +15,6 @@ export default function byfdni() {
                 <li>
                   I make tweets about my
                   <Link href="/interests">
-                    {" "}
                     <a>Interests</a>
                   </Link>
                 </li>
