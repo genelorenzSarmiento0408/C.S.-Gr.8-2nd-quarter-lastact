@@ -32,7 +32,9 @@ export default function friends() {
               <div className="card">
                 <h2 className="card-title"> Friends</h2>
                 <h3 className="card-text" style={{ marginLeft: "3rem" }}>
-                  {ListofFriends}
+                  {ListofFriends.map((ListofFriend) => (
+                    <li key={ListofFriend}>{ListofFriend}</li>
+                  ))}
                 </h3>
               </div>
             </div>

@@ -13,7 +13,7 @@ export default function grade46() {
               <p style={{ marginLeft: "3rem" }}>
                 I was excited when I was entering grade 4. A new curriculum has
                 been implemented, new guidelines on awards and recognition, a
-                three-category academic excellence award. I am (was)
+                three-category academic excellence award. I was
                 <sup>[1] </sup>aiming for the highest honor (98-100). Then I
                 joined the interschool quiz bee in our city. I studied more than
                 my brain can process. Then I reached the top 3 in the quiz bee.

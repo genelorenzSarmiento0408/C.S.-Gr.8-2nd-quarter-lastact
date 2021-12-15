@@ -25,7 +25,10 @@ export default function Footer() {
       Undesclosed = (
         <>
           <a>
-            <sup>[1]</sup> Undisclosed if grammatical or not
+            <sup>[1]</sup>
+            <Link href="https://github.com/genelorenzSarmiento0408/C.S.-Gr.8-2nd-quarter-lastact/issues/1#issuecomment-994923185">
+              Based on Context
+            </Link>
           </a>
         </>
       );
