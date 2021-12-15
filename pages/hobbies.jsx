@@ -1,11 +1,13 @@
+import Link from "next/link";
+
 export default function hobbies() {
   return (
     <div>
       <main>
-        <div class="card">
-          <h1 class="card-title">Hobbies</h1>
-          <div class="card-body">
-            <div class="card-text">
+        <div className="card">
+          <h1 className="card-title">Hobbies</h1>
+          <div className="card-body">
+            <div className="card-text">
               <h1> List of hobbies</h1>
               <ul>
                 <li>Programming</li>
@@ -14,7 +16,10 @@ export default function hobbies() {
                 <li>Kinning, </li>
                 <li>Stanning</li>
                 <li>
-                  Things I find <a href="/interests"> interesting</a>
+                  Things I find
+                  <Link href="/interests">
+                    <a> interesting</a>
+                  </Link>
                 </li>
               </ul>
             </div>

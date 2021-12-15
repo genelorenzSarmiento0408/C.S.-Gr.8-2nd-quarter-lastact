@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function grade46() {
@@ -22,8 +23,8 @@ export default function grade46() {
               </p>
               <h2>Grade 5</h2>
               <p style={{ marginLeft: "3rem" }}>
-                Then in Grade 5, nothing has changed, but I'm now in the 6th
-                spot on the quiz bee
+                Then in Grade 5, nothing has changed, but I&lsquo;m now in the
+                6th spot on the quiz bee
               </p>
               <h2>Grade 6</h2>
               <p style={{ marginLeft: "3rem" }}>
@@ -37,8 +38,12 @@ export default function grade46() {
               <br />
               <br />
               <p style={{ textAlign: "center" }}>
-                <a href="/grade13"> &lt; Last Page </a>
-                <a href="/highschool"> Next page &gt;</a>
+                <Link href="/grade13">
+                  <a> &lt; Last Page </a>
+                </Link>
+                <Link href="/highschool">
+                  <a> Next page &gt;</a>
+                </Link>
               </p>
             </div>
           </div>

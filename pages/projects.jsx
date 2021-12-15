@@ -14,7 +14,7 @@ const projects = () => {
           </h2>
           <p style={{ marginLeft: "3.4rem" }}>Probably Twitter Clone</p>
           <h2>Image Example</h2>
-          <Image src="/GLSocmedHome.png" fluid thumbnail />
+          <Image src="/GLSocmedHome.png" alt="SocMed Home" fluid thumbnail />
         </div>
       </div>
     </div>

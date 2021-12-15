@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Image, Row, Col } from "react-bootstrap";
 export default function education() {
   return (
@@ -15,13 +16,19 @@ export default function education() {
                   <Col>
                     <ul>
                       <li>
-                        <a href="/grade13"> Grade 1 - 3 </a>
+                        <Link href="/grade13">
+                          <a> Grade 1 - 3 </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/grade46"> Grade 4 - 6</a>
+                        <Link href="/grade46">
+                          <a> Grade 4 - 6</a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/highschool"> High School</a>
+                        <Link href="/highschool">
+                          <a> High School</a>
+                        </Link>
                       </li>
                     </ul>
                     Click any of the Grade for more info
@@ -45,7 +52,10 @@ export default function education() {
                     />
                   </Col>
                 </Row>
-                More pictures at: <a href="/images">Images</a>
+                More pictures at:{" "}
+                <Link href="/images">
+                  <a>Images</a>
+                </Link>
               </div>
             </p>
           </div>

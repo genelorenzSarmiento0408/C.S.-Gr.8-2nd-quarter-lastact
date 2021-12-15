@@ -29,9 +29,9 @@ export default function friends() {
         <div className="card">
           <div className="card-body">
             <div className="card-text">
-              <div class="card">
-                <h2 class="card-title"> Friends</h2>
-                <h3 class="card-text" style={{ marginLeft: "3rem" }}>
+              <div className="card">
+                <h2 className="card-title"> Friends</h2>
+                <h3 className="card-text" style={{ marginLeft: "3rem" }}>
                   {ListofFriends}
                 </h3>
               </div>

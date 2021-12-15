@@ -13,7 +13,12 @@ export default function images() {
                 <Row>
                   <Col>
                     7th Recognition Day
-                    <Image src="/7thfoundationDay.jpg" fluid thumbnail />
+                    <Image
+                      src="/7thfoundationDay.jpg"
+                      alt="Foundation day"
+                      fluid
+                      thumbnail
+                    />
                   </Col>
                   <Col>
                     Grade 4 Mr. and Ms. OLLA
@@ -44,7 +49,12 @@ export default function images() {
               <div className="row no-gutters" id="SocMed">
                 <Row>
                   <Col>
-                    <Image src="GLSocmedHome.png" fluid thumbnail />
+                    <Image
+                      src="GLSocmedHome.png"
+                      alt="GLSocmedHome"
+                      fluid
+                      thumbnail
+                    />
                   </Col>
                 </Row>
               </div>

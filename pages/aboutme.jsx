@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Image, Row, Col } from "react-bootstrap";
 export default function aboutme() {
   return (
@@ -10,29 +11,30 @@ export default function aboutme() {
               className="card-text"
               style={{ fontSize: "1.5rem", marginLeft: "1.50rem" }}
             >
-              Hi, I'm <strong> Gene Lorenz Sarmiento</strong> I'm a Student,
-              Programmer, and an Entrepreneur
+              Hi, I&apos;m <strong> Gene Lorenz Sarmiento</strong> I&apos;m a
+              Student, Programmer, and an Entrepreneur
             </div>
             <div
               className="card-text"
               style={{ fontSize: "1.3rem", marginLeft: "1.50rem" }}
             >
-              I'm a grade 8 student and currently learning Full-stack web
+              I&apos;m a grade 8 student and currently learning Full-stack web
               development and game development
             </div>
             <div
               className="card-text"
               style={{ fontSize: "1.3rem", marginLeft: "1.50rem" }}
             >
-              I'm capable of understanding new information at such a rapid pace.
+              I&apos;m capable of understanding new information at such a rapid
+              pace.
             </div>
             <div className="row no-gutters">
               <Row>
                 <Col className="col-12 col-sm-6">
                   <ul style={{ margin: "4rem", fontSize: "1.2rem" }}>
                     <li>
-                      <strong>Nicknames:</strong> "Gene", "Gene Lorenz",
-                      "Lorenz"
+                      <strong>Nicknames:</strong> &ldquo;Gene&ldquo;,
+                      &ldquo;Gene Lorenz&ldquo;, &ldquo; Lorenz&ldquo;
                     </li>
 
                     <li>
@@ -40,18 +42,23 @@ export default function aboutme() {
                     </li>
                     <li>
                       <strong>Friend/s:</strong>
-                      <a href="/friends"> List of Friends</a>
+                      <Link href="/friends">
+                        <a> List of Friends</a>
+                      </Link>
                     </li>
                     <li>
                       <strong> Birthday:</strong> August 4
                     </li>
                     <li>
-                      <strong>Motto: </strong> "To learn and to earn"
+                      <strong>Motto: </strong> &ldquo;To learn and to
+                      earn&ldquo;
                     </li>
                     <li>
-                      <a href="/education">
-                        <strong>Educational Background </strong>
-                      </a>
+                      <Link href="/education">
+                        <a>
+                          <strong>Educational Background </strong>
+                        </a>
+                      </Link>
                     </li>
                   </ul>
                 </Col>

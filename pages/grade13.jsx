@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function grade13() {
@@ -13,8 +14,8 @@ export default function grade13() {
               <h2>Grade 1</h2>
               <p style={{ marginLeft: "3rem" }}>
                 I was scared when I was entering grade 1. I thought Tr. Homer
-                (+) and Ma'am Lea were super strict, and when I was noisy I
-                thought I would be kicked out in the class. I was included in
+                (+) and Ma&lsquo;am Lea were super strict, and when I was noisy
+                I thought I would be kicked out in the class. I was included in
                 the honor roll in my section. Then in Grade 3, When I was noisy,
                 we were kicked out in the classroom
               </p>
@@ -28,7 +29,9 @@ export default function grade13() {
                 classroom
               </p>
               <p style={{ textAlign: "center" }}>
-                <a href="/grade46"> Next page &gt;</a>
+                <Link href="/grade46">
+                  <a> Next page &gt;</a>
+                </Link>
               </p>
             </div>
           </div>

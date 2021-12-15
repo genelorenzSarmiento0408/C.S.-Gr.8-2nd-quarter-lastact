@@ -7,6 +7,7 @@ import {
   faDiscord,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { Image } from "react-bootstrap";
 
 export default function Footer() {
   let lastAct;
@@ -33,7 +34,7 @@ export default function Footer() {
           style={{ justifyContent: "center", display: "flex" }}
         >
           Powered by
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+          <Image src="/vercel.svg" alt="Vercel" className="logo" />
         </a>
         <br />
         {lastAct}

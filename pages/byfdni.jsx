@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function byfdni() {
@@ -13,10 +14,14 @@ export default function byfdni() {
                 <li>Make sure you are NOT a toxic dream stan</li>
                 <li>I tweet untranslated Tagalog</li>
                 <li>
-                  I make tweets about my <a href="/interests">Interests</a>
+                  I make tweets about my
+                  <Link href="/interests">
+                    {" "}
+                    <a>Interests</a>
+                  </Link>
                 </li>
                 {/* <li>I ship DnF and/or Karlnapity when I'm in a mood</li> */}
-                <li>I'm a minor</li>
+                <li>I&apos;m a minor</li>
               </ul>
               <h4>Do not Interact if</h4>
               <ul>

@@ -2,10 +2,10 @@ function interests() {
   return (
     <div>
       <main>
-        <div class="card">
-          <h1 class="card-title">Interests</h1>
-          <div class="card-body">
-            <div class="card-text">
+        <div className="card">
+          <h1 className="card-title">Interests</h1>
+          <div className="card-body">
+            <div className="card-text">
               <h2>I fan/stan (in MCYT) </h2>
               <ul>
                 <li>Dream Team</li>

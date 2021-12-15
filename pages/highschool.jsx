@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function highschool() {
@@ -21,7 +22,9 @@ export default function highschool() {
               </p>
               <br /> <br />
               <p style={{ textAlign: "center" }}>
-                <a href="/grade46"> &lt; Last Page </a>
+                <Link href="/grade46">
+                  <a> &lt; Last Page </a>
+                </Link>
               </p>
             </div>
           </div>
