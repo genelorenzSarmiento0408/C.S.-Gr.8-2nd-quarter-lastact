@@ -24,11 +24,14 @@ export default function NavBar() {
             </Link>
           </Nav>
           <Nav>
-            <NavDropdown title="Misc.">
+            <NavDropdown title="More Contents">
               <NavDropdown.Item href="/projects">Projects</NavDropdown.Item>
               <NavDropdown.Item href="/images">Images</NavDropdown.Item>
               <NavDropdown.Item href="/friends">Friends</NavDropdown.Item>
               <NavDropdown.Item href="/interests">Interests</NavDropdown.Item>
+              <NavDropdown.Item href="/familytree">
+                Family Tree
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
