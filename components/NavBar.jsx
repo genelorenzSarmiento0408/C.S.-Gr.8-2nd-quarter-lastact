@@ -12,7 +12,7 @@ export default function NavBar() {
             <Link href="/">
               <a className="nav-link">Home</a>
             </Link>
-            <Link href="#pricing">
+            <Link href="/aboutme">
               <a className="nav-link">About Me</a>
             </Link>
             <Link href="/education">

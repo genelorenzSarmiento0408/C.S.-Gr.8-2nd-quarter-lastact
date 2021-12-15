@@ -1,29 +1,19 @@
 import { Image, Row, Col } from "react-bootstrap";
-export default function education() {
+
+export default function images() {
   return (
     <div>
       <main>
-        <div className="card text-dark mb-3">
-          <h2 className="card-title">Education</h2>
+        <div className="card">
+          <h1 className="card-title">Images</h1>
           <div className="card-body">
-            <p className="card-text">
-              This is my educational Background
-              <br />
-              (I studied at Our Lady of Lourdes Academy)
+            <div className="card-text">
+              <h1 id="Schoolpics">School Pictures</h1>
               <div className="row no-gutters">
                 <Row>
                   <Col>
-                    <ul>
-                      <li>
-                        <a href="/grade13"> Grade 1 - 3 </a>
-                      </li>
-                      <li>
-                        <a href="/grade46"> Grade 4 - 6</a>
-                      </li>
-                      <li>
-                        <a href="/highschool"> High School</a>
-                      </li>
-                    </ul>
+                    7th Recognition Day
+                    <Image src="/7thfoundationDay.jpg" fluid thumbnail />
                   </Col>
                   <Col>
                     Grade 4 Mr. and Ms. OLLA
@@ -48,9 +38,24 @@ export default function education() {
                     <Image src="/Gradpic.png" alt="gradpic" fluid thumbnail />
                   </Col>
                 </Row>
-                More pictures at: <a href="/images">Images</a>
               </div>
-            </p>
+
+              <h1>GLS Media Pictures</h1>
+              <div className="row no-gutters" id="SocMed">
+                <Row>
+                  <Col>
+                    <Image src="GLSocmedHome.png" fluid thumbnail />
+                  </Col>
+                  <Col>
+                    <Image src="GLSocmedMessageSent.png" fluid thumbnail />
+                  </Col>
+                  <Col>
+                    <Image src="GLSocmedMessageReceived.png" fluid thumbnail />
+                  </Col>
+                  <Col></Col>
+                </Row>
+              </div>
+            </div>
           </div>
         </div>
       </main>
