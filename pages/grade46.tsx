@@ -13,14 +13,13 @@ export default function grade46() {
               <p style={{ marginLeft: "3rem" }}>
                 I was excited when I was entering grade 4. A new curriculum has
                 been implemented, new guidelines on awards and recognition, a
-                three-category academic excellence award. I was
-                <sup>[1] </sup>aiming for the highest honor (98-100). Then I
-                joined the interschool quiz bee in our city. I studied more than
-                my brain can process. Then I reached the top 3 in the quiz bee.
-                I am very sure that I will be in high honor. Then I received the
-                highest score I have ever gotten. The grade was 🥁🥁🥁 99 in
-                Science. And my average is 95 in the whole quarter. I was very
-                joyful when I reached that.
+                three-category academic excellence award. I was aiming for the
+                highest honor (98-100). Then I joined the interschool quiz bee
+                in our city. I studied more than my brain can process. Then I
+                reached the top 3 in the quiz bee. I am very sure that I will be
+                in high honor. Then I received the highest score I have ever
+                gotten. The grade was 🥁🥁🥁 99 in Science. And my average is 95
+                in the whole quarter. I was very joyful when I reached that.
               </p>
               <h2>Grade 5</h2>
               <p style={{ marginLeft: "3rem" }}>

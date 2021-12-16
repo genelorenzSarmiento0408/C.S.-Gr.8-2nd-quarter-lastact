@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function grade13() {
+export default function grade13(): JSX.Element {
   return (
     <div>
       <main>
@@ -24,7 +24,8 @@ export default function grade13() {
               </p>
               <h2>Grade 3</h2>
               <p style={{ marginLeft: "3rem" }}>
-                Then in Grade 3, nothing has changed
+                Then in Grade 3, nothing has really changed, Im stil in the
+                honor roll
               </p>
               <p style={{ textAlign: "center" }}>
                 <Link href="/grade46">

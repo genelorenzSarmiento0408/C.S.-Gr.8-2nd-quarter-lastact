@@ -13,24 +13,23 @@ import { ReactElement } from "react";
 
 export default function Footer() {
   let lastAct: ReactElement;
-  let Undesclosed: ReactElement;
+
   if (typeof window !== "undefined") {
     if (window.location.pathname == "/") {
       lastAct = (
         <>
-          <a>For the Completion of the </a>
-          <a>2nd Quarter last Activity in Computer 8</a>
-        </>
-      );
-    } else if (window.location.pathname == "/grade46") {
-      Undesclosed = (
-        <>
-          <a>
-            <sup>[1]</sup>
-            <Link href="https://github.com/genelorenzSarmiento0408/C.S.-Gr.8-2nd-quarter-lastact/issues/1#issuecomment-994923185">
-              Based on Context
-            </Link>
-          </a>
+          <p
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            For the Completion of the
+          </p>
+          <Link href="/citations#computer8">
+            <a>2nd Quarter last Activity in Computer 8</a>
+          </Link>
         </>
       );
     }
@@ -38,7 +37,6 @@ export default function Footer() {
   return (
     <footer>
       <h6>
-        {Undesclosed}
         <a> Made with ❤️ by</a>
         <a href="https://github.com/genelorenzSarmiento0408/C.S.-Gr.8-2nd-quarter-lastact">
           Gene Lorenz Sarmiento
@@ -53,6 +51,8 @@ export default function Footer() {
         </a>
         <br />
         {lastAct}
+        <br />
+
         <Link href="https://github.com/genelorenzSarmiento0408/C.S.-Gr.8-2nd-quarter-lastact/issues">
           <a>Drop an Issue here: Github Issues</a>
         </Link>

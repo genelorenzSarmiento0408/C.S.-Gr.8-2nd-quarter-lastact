@@ -26,6 +26,7 @@ export default function NavBar() {
               <NavDropdown.Item href="/images">Images</NavDropdown.Item>
               <NavDropdown.Item href="/friends">Friends</NavDropdown.Item>
               <NavDropdown.Item href="/interests">Interests</NavDropdown.Item>
+              <NavDropdown.Item href="/citations">Citations</NavDropdown.Item>
               <NavDropdown.Item href="/familytree">
                 Family Tree
               </NavDropdown.Item>

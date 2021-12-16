@@ -4,10 +4,9 @@ import SSRProvider from "react-bootstrap/SSRProvider";
 import Head from "next/head";
 import { config, dom } from "@fortawesome/fontawesome-svg-core";
 import Footer from "../components/Footer";
-
 config.autoAddCss = false;
 
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }): JSX.Element {
   return (
     <SSRProvider>
       <Head>
@@ -15,6 +14,7 @@ export default function MyApp({ Component, pageProps }) {
         <style>{dom.css()}</style>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <NavBar />
       <Component {...pageProps} />
       <Footer />
