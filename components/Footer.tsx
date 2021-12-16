@@ -9,10 +9,11 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { Image } from "react-bootstrap";
 import Link from "next/link";
+import { ReactElement } from "react";
 
 export default function Footer() {
-  let lastAct;
-  let Undesclosed;
+  let lastAct: ReactElement;
+  let Undesclosed: ReactElement;
   if (typeof window !== "undefined") {
     if (window.location.pathname == "/") {
       lastAct = (

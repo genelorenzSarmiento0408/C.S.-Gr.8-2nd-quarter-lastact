@@ -1,5 +1,5 @@
 export default function friends() {
-  let ListofFriends = [
+  let ListofFriends: String[] = [
     " Jenice ,",
     " Ram ,",
     " Kathlyn ,",
@@ -32,8 +32,8 @@ export default function friends() {
               <div className="card">
                 <h2 className="card-title"> Friends</h2>
                 <h3 className="card-text" style={{ marginLeft: "3rem" }}>
-                  {ListofFriends.map((ListofFriend) => (
-                    <li key={ListofFriend}>{ListofFriend}</li>
+                  {ListofFriends.map((ListofFriend, index) => (
+                    <li key={index}>{ListofFriend}</li>
                   ))}
                 </h3>
               </div>

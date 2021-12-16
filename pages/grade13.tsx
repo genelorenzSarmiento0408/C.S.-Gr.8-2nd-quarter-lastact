@@ -24,8 +24,7 @@ export default function grade13() {
               </p>
               <h2>Grade 3</h2>
               <p style={{ marginLeft: "3rem" }}>
-                Then in Grade 3, When I was noisy, we were kicked out in the
-                classroom
+                Then in Grade 3, nothing has changed
               </p>
               <p style={{ textAlign: "center" }}>
                 <Link href="/grade46">

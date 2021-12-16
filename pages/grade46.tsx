@@ -17,8 +17,8 @@ export default function grade46() {
                 <sup>[1] </sup>aiming for the highest honor (98-100). Then I
                 joined the interschool quiz bee in our city. I studied more than
                 my brain can process. Then I reached the top 3 in the quiz bee.
-                I am very assured that I will be in high honor. Then I received
-                the highest score I have ever gotten. The grade was 🥁🥁🥁 99 in
+                I am very sure that I will be in high honor. Then I received the
+                highest score I have ever gotten. The grade was 🥁🥁🥁 99 in
                 Science. And my average is 95 in the whole quarter. I was very
                 joyful when I reached that.
               </p>

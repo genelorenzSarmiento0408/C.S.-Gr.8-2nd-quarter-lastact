@@ -54,6 +54,9 @@ export default function aboutme() {
                       earn&ldquo;
                     </li>
                     <li>
+                      <strong>Fav. Color: </strong> Green
+                    </li>
+                    <li>
                       <Link href="/education">
                         <a>
                           <strong>Educational Background </strong>
